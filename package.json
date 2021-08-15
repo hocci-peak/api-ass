@@ -1,0 +1,14 @@
+{
+  "name": "ass_hocci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serversample.js",
+  "scripts": {
+    "start": "node serversample.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.0.1"
+  }
+}

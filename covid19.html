@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid 19</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom css -->
+    <link href="css/myChart.css" rel="stylesheet" />
+</head>
+
+<body>    
+    <div class="container">
+        <div>
+            <a class="btn-back" href="/"><i class="fas fa-arrow-circle-left"></i>Back</a>
+        </div>
+        <div class="row">
+            <!--* Card init *-->
+            <div class="col-12 p-4">
+                <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header">
+                        <!-- Title -->
+                        <h5 class="h3 mb-0">Total Confirmed</h5>
+                    </div>
+                    <!-- Card body -->
+                    <div class="card-body">
+                        <div class="chart">
+                            <!-- Chart wrapper -->
+                            <canvas id="newConfirmed" class="chart-canvas"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 p-4">
+                <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header">
+                        <!-- Title -->
+                        <h5 class="h3 mb-0">Total Deaths</h5>
+                    </div>
+                    <!-- Card body -->
+                    <div class="card-body">
+                        <div class="chart">
+                            <!-- Chart wrapper -->
+                            <canvas id="newDeaths" class="chart-canvas"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 p-4">
+                <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header">
+                        <!-- Title -->
+                        <h5 class="h3 mb-0">Total Recovered</h5>
+                    </div>
+                    <!-- Card body -->
+                    <div class="card-body">
+                        <div class="chart">
+                            <!-- Chart wrapper -->
+                            <canvas id="totalRecovered" class="chart-canvas"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js"
+        integrity="sha512-5vwN8yor2fFT9pgPS9p9R7AszYaNn0LkQElTXIsZFCL7ucT8zDCAqlQXDdaqgA1mZP47hdvztBMsIoFxq/FyyQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+         <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/myChart.js"></script>
+</body>
+
+</html>

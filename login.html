@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styleslogin.css">
+    <title>Registration</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            $("#btnsignup").click(function() {
+                var username = $("#username").val();
+                var email = $("#email").val();
+                var pwd = $("#pwd").val();
+                var repwd = $("#repwd").val();
+
+                alert("username: " + username + "\nEmail: " + email + "\nPassword: " + pwd + "\nRePassword: " + repwd);
+            
+            }); // end btnsignup
+
+            $("#changeToLogin").click(function() {
+                location.href='/bbb';
+            });// end change to login page
+        });
+    </script>
+</head>
+
+<body>
+   
+
+    <div id="login-box">
+        <div class="left">
+          <h1>Sign up</h1>
+          
+          <input type="text" name="username" placeholder="Username" id="username" required />
+          <input type="text" name="email" placeholder="E-mail" id="email" required />
+          <input type="password" name="password" placeholder="Password" id="pwd" required/>
+          <input type="password" name="password2" placeholder="Retype password" id="repwd" required/>
+          
+          <input type="submit" name="signup_submit" value="Sign me up" id="btnsignup" />
+        </div>
+        
+        <div class="right">
+          <!-- <span class="loginwith">Sign in with<br />social network</span> -->
+          
+          <button class="social-signin facebook" onclick="btnlogin()" id="changeToLogin">Login</button>
+          <!-- <button class="social-signin twitter">Log in with Twitter</button>
+          <button class="social-signin google">Log in with Google+</button> -->
+        </div>
+        <div class="or">OR</div>
+      </div>
+
+    
+
+</body>
+</html>

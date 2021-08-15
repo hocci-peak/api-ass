@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Ice cream</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- custom css -->
+    <link href="css/mystyles.css" rel="stylesheet" />
+    <!-- <link href="css/myChart.css" rel="stylesheet" /> -->
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#page-top"
+          ><img class="nav-logo" src="./assets/img/icecream.svg" />Start
+          Bootstrap</a
+        >
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#signup">Country</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#covid-19">Covid-19</a>
+            </li>
+            <li class="nav-item" id="navList">
+              <a class="nav-link" href="#list">List</a>
+            </li>
+            <li class="nav-item" id="navLoginBtn">
+              <a class="nav-link btnLogin"
+                ><button type="button" class="btn btn-success" id="btnLogin">
+                  Login
+                </button></a
+              >
+            </li>
+            <li class="nav-item" id="navFavoriteBtn"> <img id="userImage" src="" />             
+              <a class="nav-link" href="#" id="navUserName"></a>
+            </li>
+            <li class="nav-item" id="navLogOutBtn">
+              <a class="nav-link" href="#"
+                ><span>Logout</span>&nbsp;<i class="bi bi-box-arrow-right"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+      <div
+        class="
+          container
+          px-4 px-lg-5
+          d-flex
+          h-100
+          align-items-center
+          justify-content-center
+        "
+      >
+        <div class="d-flex justify-content-center">
+          <div class="text-center">
+            <h1 class="mx-auto my-0 text-uppercase">ICE CREAM</h1>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5">
+              A rich, sweet, creamy frozen food made from variously flavored
+              cream and milk products churned or stirred to a smooth consistency
+              during the freezing process and often containing gelatin, eggs,
+              fruits, nuts, etc. ...
+            </h2>
+            <!-- <a class="btn btn-primary" href="#about">Get Started</a> -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- About-->
+    <section class="about-section text-center" id="about">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="text-white mb-4">Ice Cream Guide 2021</h2>
+            <p class="text-white-50">
+              Have you heard the scoop? Ice-cream season is in full force. No
+              matter what kind of ice cream you’re looking for, we’ve got your
+              back. Drum roll...
+              <!-- <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
+                        The theme is open source, and you can use it for any purpose, personal or commercial. -->
+            </p>
+          </div>
+        </div>
+        <img
+          class="img-fluid img-grand"
+          src="./assets/img/tran.png"
+          alt="..."
+        />
+      </div>
+    </section>
+    <!-- Projects-->
+    <section class="projects-section bg-light" id="projects">
+      <div class="container px-4 px-lg-5">
+        <!-- Featured Project Row-->
+        <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+          <div class="col-xl-8 col-lg-7">
+            <img
+              class="img-fluid mb-3 mb-lg-0"
+              src="assets/img/ice-cream-cover.jpg"
+              alt="..."
+            />
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Unique ice creams around the world that you need to try</h4>
+              <p class="text-black-50 mb-0">
+                Here are 12 different types of ice cream you can find across the
+                globe. Perhaps you'll even be inspired to try making some of
+                these unique treats at home!
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Project One Row-->
+        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid img-h w-100"
+              src="assets/img/get.jpg"
+              alt="..."
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-left"
+                >
+                  <h4 class="text-white">Gelato | Italy</h4>
+                  <p class="mb-0 text-white-50">
+                    Gelato, Italy's most famous type of ice cream, comes in a
+                    variety of flavors and generally has a denser consistency
+                    and more potent flavor (but is less creamy) than its
+                    American counterpart.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ms-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project Two Row-->
+        <div class="row gx-0 justify-content-center">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid img-h w-100"
+              src="assets/img/Mochi.jpg"
+              alt="..."
+            />
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-right"
+                >
+                  <h4 class="text-white">Ice cream mochi | Japan</h4>
+                  <p class="mb-0 text-white-50">
+                    Japanese dessert lovers have managed to combine a favored
+                    local sweet, mochi, and ice cream into a single tasty bite.
+                    These two-bite-sized morsels are made by stuffing
+                    pastel-colored balls of pounded sticky rice with various
+                    flavors of ice cream (green tea, anyone?) which are then
+                    coated in a fine white powder.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 me-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project Third Row-->
+        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid img-h w-100"
+              src="assets/img/helo.jpg"
+              alt="..."
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-left"
+                >
+                  <h4 class="text-white">Helado | Argentina</h4>
+                  <p class="mb-0 text-white-50">
+                    Argentina's frozen treat, helado, is creamy, rich and piled
+                    so high on a cone that sticky drips are a constant threat.
+                    It comes in multiple flavors, with dulce de leche being a
+                    national favorite.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ms-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project Forth Row-->
+        <div class="row gx-0 justify-content-center">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid img-h w-100"
+              src="assets/img/mash.jpg"
+              alt="..."
+            />
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-right"
+                >
+                  <h4 class="text-white">Ais Kacang | Malaysia</h4>
+                  <p class="mb-0 text-white-50">
+                    Malaysia gets mighty hot, and to cool off, locals turn to a
+                    take on shaved ice known as ais kacang. A heaping stack of
+                    shaved ice gets topped with an often colorful and sometimes
+                    bewildering assortment of ingredients: things like grass
+                    jelly, sweet corn, palm nuts, diced fruit, aloe vera,
+                    condensed milk and a whole host of sweet flavored syrups.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 me-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project Fiveth Row-->
+        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid img-h w-100"
+              src="assets/img/get.jpg"
+              alt="..."
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-left"
+                >
+                  <h4 class="text-white">Gelato | Italy</h4>
+                  <p class="mb-0 text-white-50">
+                    Gelato, Italy's most famous type of ice cream, comes in a
+                    variety of flavors and generally has a denser consistency
+                    and more potent flavor (but is less creamy) than its
+                    American counterpart.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ms-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project Sixth Row-->
+        <div class="row gx-0 justify-content-center">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid img-h w-100"
+              src="assets/img/Mochi.jpg"
+              alt="..."
+            />
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-right"
+                >
+                  <h4 class="text-white">Ice cream mochi | Japan</h4>
+                  <p class="mb-0 text-white-50">
+                    Japanese dessert lovers have managed to combine a favored
+                    local sweet, mochi, and ice cream into a single tasty bite.
+                    These two-bite-sized morsels are made by stuffing
+                    pastel-colored balls of pounded sticky rice with various
+                    flavors of ice cream (green tea, anyone?) which are then
+                    coated in a fine white powder.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 me-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project Seventh Row-->
+        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid img-h w-100"
+              src="assets/img/helo.jpg"
+              alt="..."
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-left"
+                >
+                  <h4 class="text-white">Helado | Argentina</h4>
+                  <p class="mb-0 text-white-50">
+                    Argentina's frozen treat, helado, is creamy, rich and piled
+                    so high on a cone that sticky drips are a constant threat.
+                    It comes in multiple flavors, with dulce de leche being a
+                    national favorite.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ms-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project Eigth Row-->
+        <div class="row gx-0 justify-content-center">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid img-h w-100"
+              src="assets/img/mash.jpg"
+              alt="..."
+            />
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-right"
+                >
+                  <h4 class="text-white">Ais Kacang | Malaysia</h4>
+                  <p class="mb-0 text-white-50">
+                    Malaysia gets mighty hot, and to cool off, locals turn to a
+                    take on shaved ice known as ais kacang. A heaping stack of
+                    shaved ice gets topped with an often colorful and sometimes
+                    bewildering assortment of ingredients: things like grass
+                    jelly, sweet corn, palm nuts, diced fruit, aloe vera,
+                    condensed milk and a whole host of sweet flavored syrups.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 me-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Signup-->
+    <section class="signup-section" id="signup">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+            <h2 class="text-white mb-5" id="country-name">Country information!</h2>
+            <form class="form-signup d-flex flex-column flex-sm-row">
+              <input
+                class="form-control flex-fill me-0 me-sm-2 mb-3 mb-sm-0"
+                id="inputEmail"
+                type="text"
+                placeholder="Enter native name or partial name"
+              />
+              <button class="btn btn-primary" type="submit" id="btn-search-country">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact-->
+    <section class="contact-section bg-black">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+          <div class="col-md-12 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0" id="ansCountryName"></h4>
+                <hr class="my-4 mx-auto" />
+                <div class="countryDetail">
+                  <h6>Area</h6>
+                  <h5 class="text-uppercase m-0" id="ansCountryArea"></h5>
+                </div>
+                <div class="countryDetail">
+                  <h6>Capital</h6>
+                  <h5 class="text-uppercase m-0" id="ansCountryCapital"></h5>
+                </div>
+                <div class="countryDetail">
+                  <h6>Currencies</h6>
+                  <h5 class="text-uppercase m-0" id="ansCountryCurrencies"></h5>
+                </div>
+                <div class="countryDetail">
+                  <h6>Flag</h6>
+                  <img class="text-uppercase m-0" src="" id="ansCountryFlag"></h5>
+                </div>
+                <div class="countryDetail">
+                  <h6>Population</h6>
+                  <h5 class="text-uppercase m-0" id="ansCountryPopulation"></h5>
+                </div>
+                <div class="countryDetail">
+                  <h6>Region</h6>
+                  <h5 class="text-uppercase m-0" id="ansCountryRegion"></h5>
+                </div>
+                <div class="countryDetail">
+                  <h6>Timezones</h6>
+                  <h5 class="text-uppercase m-0" id="ansCountryTimezones"></h5>
+                </div>
+                <div class="small text-black-50">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4 mx-auto" />
+                <div class="small text-black-50">
+                  <a href="#!">hello@yourdomain.com</a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Phone</h4>
+                <hr class="my-4 mx-auto" />
+                <div class="small text-black-50">+1 (555) 902-8832</div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <div class="social d-flex justify-content-center">
+          <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+          <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+          <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- covid -19 -->
+    <section class="contact-section bg-black pt-6" id="covid-19">
+      <div class="row">
+        <!--* Card init *-->
+        <div class="col-12 p-4">
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header">
+              <!-- Title -->
+              <h5 class="h3 mb-0">Total Confirmed</h5>
+            </div>
+            <!-- Card body -->
+            <div class="card-body">
+              <div class="chart">
+                <!-- Chart wrapper -->
+                <canvas id="newConfirmed" class="chart-canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 p-4">
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header">
+              <!-- Title -->
+              <h5 class="h3 mb-0">Total Deaths</h5>
+            </div>
+            <!-- Card body -->
+            <div class="card-body">
+              <div class="chart">
+                <!-- Chart wrapper -->
+                <canvas id="newDeaths" class="chart-canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 p-4">
+          <div class="card">
+            <!-- Card header -->
+            <div class="card-header">
+              <!-- Title -->
+              <h5 class="h3 mb-0">Total Recovered</h5>
+            </div>
+            <!-- Card body -->
+            <div class="card-body">
+              <div class="chart">
+                <!-- Chart wrapper -->
+                <canvas id="totalRecovered" class="chart-canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- edit user-->
+    <!-- <section class="contact-section bg-black">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 d-flex flex-row justify-content-center text-center">
+          
+          <form id="editUserForm">
+            <div class="">
+              <h1>Reset password</h1>
+              <h3 id="editUserName"></h3>
+              <div>
+                <div class="error-inner"></div>
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="password"
+                  id="password"
+                  required
+                />
+              </div>
+              <div>
+                <div class="error-inner"></div>
+                <input
+                  type="password"
+                  name="password2"
+                  placeholder="Password2"
+                  id="password2"
+                  required
+                />
+              </div>
+              
+    
+              <input
+                type="submit"
+                name="editUser_submit"
+                value="Save"
+                id="btnEditUser"
+              />
+            </div>
+    
+            
+            
+            <button
+              type="button"
+              class="btn-close my-close"
+              aria-label="Close"
+              id="btnCloseLogin"
+            ></button>
+          </form>
+
+        </div>        
+      </div>
+    </section> -->
+    <!-- list -->
+    <section
+      class="vh-100 list-section"
+      style="background-color: #eee"
+      id="list"
+    >
+      <div class="list-spinner">
+        <div
+          class="spinner-border text-danger"
+          style="width: 8rem; height: 8rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <div class="container py-5 h-100">
+        <!-- <div>
+          <a class="btn-back" href="/"
+            ><i class="fas fa-arrow-circle-left"></i>Back</a
+          >
+        </div> -->
+        <div class="row d-flex justify-content-center align-items-start h-100">
+          <div class="col col-lg-9 col-xl-7">
+            <div class="card rounded-3">
+              <div class="card-body p-4">
+                <h4 class="text-center my-3 pb-3">To Do List</h4>
+
+                <form
+                  action="#"
+                  method="post"
+                  class="
+                    row row-cols-lg-auto
+                    g-3
+                    justify-content-center
+                    align-items-center
+                    mb-4
+                    pb-2
+                  "
+                >
+                  <div class="col-8">
+                    <div class="form-outline">
+                      <input type="text" id="form1" class="form-control" />
+                      <label class="form-label" for="form1"
+                        >Enter a task here</label
+                      >
+                    </div>
+                  </div>
+
+                  <div class="col-4 h-100">
+                    <button
+                      type="submit"
+                      id="addToDoList"
+                      class="btn btn-primary"
+                    >
+                      Add
+                    </button>
+                  </div>
+
+                  <!-- <div class="col-12">
+                      <button type="submit" class="btn btn-warning">Get tasks</button>
+                    </div> -->
+                </form>
+
+                <table class="table mb-4">
+                  <thead>
+                    <tr>
+                      <th scope="col">No.</th>
+                      <th scope="col">Todo item</th>
+                      <!-- <th scope="col">Status</th> -->
+                      <th scope="col">Actions</th>
+                      <th scope="col"></th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <tbody id="toDoListBody">
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Buy groceries for next week</td>
+                      <!-- <td>In progress</td> -->
+                      <td>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="flexCheckDefault"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexCheckDefault"
+                          >
+                            Check
+                          </label>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Renew car insurance</td>
+                      <!-- <td>In progress</td> -->
+                      <td>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="flexCheckDefault"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexCheckDefault"
+                          >
+                            Check
+                          </label>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Sign up for online course</td>
+                      <!-- <td>In progress</td> -->
+                      <td>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="flexCheckDefault"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexCheckDefault"
+                          >
+                            Check
+                          </label>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50">
+      <div class="container px-4 px-lg-5">
+        Copyright &copy; Your Website 2021
+      </div>
+    </footer>
+    <!-- Login page -->
+    <div id="login-box">
+      <div class="error-message">
+        <h5 class="error-message-text">hihi</h5>
+      </div>
+      <div class="cover-spinner">
+        <div class="d-flex justify-content-center center-circle">
+          <div
+            class="spinner-border"
+            style="width: 5rem; height: 5rem; color: white"
+            role="status"
+          >
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+      </div>
+      <form id="loginForm">
+        <div class="left">
+          <h1>Login</h1>
+          <div>
+            <div class="error-inner"></div>
+            <input
+              type="text"
+              name="username"
+              placeholder="Username"
+              id="username"
+              required
+            />
+          </div>
+          <!-- <input type="text" name="email" placeholder="E-mail" id="email"/> -->
+          <div>
+            <div class="error-inner"></div>
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              id="pwd"
+              required
+            />
+          </div>
+          <!-- <input type="password" name="password2" placeholder="Retype password" id="repwd"/> -->
+
+          <input
+            type="submit"
+            name="login_submit"
+            value="Login"
+            id="btnlogin"
+          />
+        </div>
+
+        <div class="right">
+          <!-- <span class="loginwith">Sign in with<br />social network</span> -->
+
+          <!-- <button class="social-signin facebook">Log in with facebook</button> -->
+          <button
+            type="button"
+            class="social-signin twitter"
+            id="changeToSignUp"
+          >
+            Sign Up
+          </button>
+          <!-- <button class="social-signin google">Log in with Google+</button> -->
+        </div>
+        <div class="or">OR</div>
+        <button
+          type="button"
+          class="btn-close my-close"
+          aria-label="Close"
+          id="btnCloseLogin"
+        ></button>
+      </form>
+    </div>
+    <!-- sign up page -->
+    <div id="singup-box">
+      <div class="error-message">
+        <h5 class="error-message-text">hihi</h5>
+      </div>
+      <div class="cover-spinner">
+        <div class="d-flex justify-content-center center-circle">
+          <div
+            class="spinner-border"
+            style="width: 5rem; height: 5rem; color: white"
+            role="status"
+          >
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+      </div>
+      <form id="signupForm">
+        <div class="left">
+          <h1>Sign up</h1>
+
+          <input
+            type="text"
+            name="username"
+            placeholder="Username"
+            id="signupUsername"
+            required
+          />
+          <input
+            type="text"
+            name="email"
+            placeholder="E-mail"
+            id="signupEmail"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            id="signupPwd"
+            required
+          />
+          <input
+            type="password"
+            name="password2"
+            placeholder="Retype password"
+            id="signupRepwd"
+            required
+          />
+
+          <input
+            type="submit"
+            name="signup_submit"
+            value="Sign me up"
+            id="btnsignup"
+          />
+        </div>
+
+        <div class="right">
+          <!-- <span class="loginwith">Sign in with<br />social network</span> -->
+
+          <button
+            type="button"
+            class="social-signin facebook"
+            id="changeToLogin"
+          >
+            Login
+          </button>
+          <!-- <button class="social-signin twitter">Log in with Twitter</button>
+                    <button class="social-signin google">Log in with Google+</button> -->
+        </div>
+        <div class="or">OR</div>
+        <button
+          type="button"
+          class="btn-close my-close"
+          aria-label="Close"
+          id="btnCloseSignup"
+        ></button>
+      </form>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js"
+      integrity="sha512-5vwN8yor2fFT9pgPS9p9R7AszYaNn0LkQElTXIsZFCL7ucT8zDCAqlQXDdaqgA1mZP47hdvztBMsIoFxq/FyyQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/myscripts.js"></script>
+    <script src="js/myChart.js"></script>
+  </body>
+</html>
